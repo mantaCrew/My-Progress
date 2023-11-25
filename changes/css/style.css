@@ -32,22 +32,19 @@ ol {
 .listone {
     display: flex; 
     flex-direction: row;
+    background-color: grey;
+    color: black;
+    min-height: 40px;
+    min-width: 60px;
+    justify-content: space-around;
+    align-items: center;
 }
 
-.tt {
-    outline:2px solid blue;
-    flex: 1 1 auto;
+.item1 {
+    outline:2px solid black;
+    flex: 0 1 auto;
 }
 
-.st {
-    outline:2px solid red;
-    flex: 1 1 auto;
-}
-
-.tth {
-    outline:2px solid green;
-    flex: 1 1 auto;
-}
 
 
 
@@ -56,6 +53,27 @@ ol {
 
 
 .listtwo {
+    height: 400px;
+    padding: 16px;
+    background: plum;
+    border: 4px solid indigo;
     display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 10px;
+
+    /* in 'row' direction, align-items works on the opposing axis */
+    align-items: center;
 }
 
+.item2 {
+    width: 60px;
+    height: 60px;
+    border: 4px solid darkslategray;
+    background: skyblue;
+    flex: 0;
+}
+
+.st {
+    margin-top: 20px;
+}
