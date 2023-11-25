@@ -32,20 +32,21 @@ ol {
 .listone {
     display: flex; 
     flex-direction: row;
-    justify-content: center;
-    flex: 1;
 }
 
 .tt {
     outline:2px solid blue;
+    flex: 1 1 auto;
 }
 
 .st {
-
+    outline:2px solid red;
+    flex: 1 1 auto;
 }
 
 .tth {
-
+    outline:2px solid green;
+    flex: 1 1 auto;
 }
 
 
