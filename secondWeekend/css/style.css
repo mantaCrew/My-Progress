@@ -1,0 +1,60 @@
+* {
+   /* outline: 1px solid red; */
+}
+
+body {
+    margin: 20px;
+    background-color: #3a3a3a;
+    border: 2px solid red;
+}
+
+ul,
+ol {
+    list-style: none;
+}
+
+.open {
+    background-color: white;
+    text-align: center;
+    padding: 10px 0px 10px 0px;
+}
+
+.mission {
+    background-color: grey;
+}
+
+
+
+/* First tier list */
+
+
+
+.listone {
+    display: flex; 
+    flex-direction: row;
+    justify-content: center;
+    flex: 1;
+}
+
+.tt {
+    outline:2px solid blue;
+}
+
+.st {
+
+}
+
+.tth {
+
+}
+
+
+
+/* Second tier list */
+
+
+
+.listtwo {
+    display: flex;
+}
+
