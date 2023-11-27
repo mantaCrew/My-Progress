@@ -77,3 +77,28 @@ ol {
 .st {
     margin-top: 20px;
 }
+
+.divone {
+    display:flex;
+    outline: 2px solid white;
+    min-height: 200px;
+}
+    .p1 {
+        outline: 2px solid red;
+        flex-basis: 150px;
+    }
+    .p2 {
+        outline: 2px solid green;
+        flex: 1;
+    }
+    .p3 {
+        outline: 2px solid blue;
+        flex: 2;
+    }
+    .p4 {
+        outline: 2px solid yellow;
+        flex: 1;
+    }
+    .pp {
+        padding: 20px;
+    }
