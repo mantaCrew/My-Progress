@@ -102,3 +102,29 @@ ol {
     .pp {
         padding: 20px;
     }
+
+    .firstBox {
+        outline: 2px solid white;
+        background-color: black;
+        color: white;
+        display:flex;
+        min-height: 500px;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .he {
+        outline:2px solid yellow;
+    }
+
+    .secondBox {
+        background-color: white;
+        display:flex;
+        min-height: 500px;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .hee {
+        outline: 2px solid red;
+    }
