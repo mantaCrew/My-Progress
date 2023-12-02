@@ -182,3 +182,7 @@ ol {
         justify-content: space-evenly;
         align-items:center;
     }
+    .stacked {
+        display: flex;
+        flex-direction: row;
+    }
