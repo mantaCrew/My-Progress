@@ -129,6 +129,13 @@ ol {
         align-items: center;
     }
 
+    .stacked {
+        background-color: white;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+    }
+
     .secondBox {
         background-color: white;
         display:flex;
@@ -165,6 +172,10 @@ ol {
         align-items:center; 
     }
 
+    .fourRow {
+        display: flex;
+    }
+
     .fourthBox {
         background-color: black;
         display:flex;
@@ -183,9 +194,60 @@ ol {
         justify-content: space-evenly;
         align-items:center;
     }
-    .stacked {
-        background-color: white;
-        display: flex;
-        flex-direction: row;
+
+    .fifthBox {
+        background-color: black;
+        display:flex;
+        min-height: 1000px;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .meee {
+        outline: 2px solid white;
+        display:flex;
+        color: white;
+        gap:15px;
+        min-height:400px;
+        min-width: 400px;
         justify-content: space-evenly;
+        align-items:center;
+    }
+
+    .sixthBox {
+        background-color: black;
+        display:flex;
+        min-height: 1000px;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .meeee {
+        outline: 2px solid white;
+        display:flex;
+        color: white;
+        gap:15px;
+        min-height:400px;
+        min-width: 400px;
+        justify-content: space-evenly;
+        align-items:center;
+    }
+
+    .seventhBox {
+        background-color: black;
+        display:flex;
+        min-height: 1000px;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .meeeee {
+        outline: 2px solid white;
+        display:flex;
+        color: white;
+        gap:15px;
+        min-height:400px;
+        min-width: 400px;
+        justify-content: space-evenly;
+        align-items:center;
     }
