@@ -106,6 +106,7 @@ ol {
 
     .lame {
         display:flex;
+        flex-direction: column;
     }
     .firstBox {
         outline: 2px solid white;
