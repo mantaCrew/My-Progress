@@ -166,7 +166,7 @@ ol {
     }
 
     .fourthBox {
-        background-color: white;
+        background-color: black;
         display:flex;
         min-height: 1000px;
         justify-content: center;
@@ -174,8 +174,9 @@ ol {
     }
 
     .mee {
-        outline: 2px solid black;
+        outline: 2px solid white;
         display:flex;
+        color: white;
         gap:15px;
         min-height:400px;
         min-width: 400px;
@@ -183,6 +184,8 @@ ol {
         align-items:center;
     }
     .stacked {
+        background-color: white;
         display: flex;
         flex-direction: row;
+        justify-content: space-evenly;
     }
