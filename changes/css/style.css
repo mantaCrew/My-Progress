@@ -175,12 +175,13 @@ ol {
     .fourRow {
         display: flex;
         outline: 2px solid green;
+        margin: auto;
     }
 
     .fourthBox {
         background-color: black;
         display:flex;
-        min-height: 1000px;
+        min-height: 500px;
         justify-content: center;
         align-items: center;
     }
@@ -199,7 +200,7 @@ ol {
     .fifthBox {
         background-color: black;
         display:flex;
-        min-height: 1000px;
+        min-height: 500px;
         justify-content: center;
         align-items: center;
         outline: 2px solid red;
@@ -219,7 +220,7 @@ ol {
     .sixthBox {
         background-color: black;
         display:flex;
-        min-height: 1000px;
+        min-height: 500px;
         justify-content: center;
         align-items: center;
     }
@@ -238,7 +239,7 @@ ol {
     .seventhBox {
         background-color: black;
         display:flex;
-        min-height: 1000px;
+        min-height: 500px;
         justify-content: center;
         align-items: center;
     }
@@ -256,10 +257,9 @@ ol {
     .rowOne {
         display: flex;
         flex-direction: column;
-        flex: 1;
+        flex: 0;
     }
     .rowTwo {
         display: flex;
         flex-direction: column;
-        flex: 1;
     }
