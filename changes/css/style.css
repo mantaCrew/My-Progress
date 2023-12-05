@@ -173,8 +173,11 @@ ol {
     }
 
     .fourRow {
+        background-color: black;
         display: flex;
         outline: 2px solid green;
+        justify-content: space-evenly;
+
     }
 
     .fourthBox {
@@ -203,7 +206,6 @@ ol {
         min-height: 500px;
         justify-content: center;
         align-items: center;
-        outline: 2px solid red;
     }
 
     .meee {
