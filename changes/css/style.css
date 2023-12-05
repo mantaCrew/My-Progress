@@ -175,7 +175,6 @@ ol {
     .fourRow {
         display: flex;
         outline: 2px solid green;
-        margin: auto;
     }
 
     .fourthBox {
@@ -184,6 +183,7 @@ ol {
         min-height: 500px;
         justify-content: center;
         align-items: center;
+
     }
 
     .mee {
