@@ -183,8 +183,7 @@ ol {
     .fourthBox {
         background-color: black;
         display:flex;
-        min-height: 200px;
-        min-width: 200;
+        min-height: 500px;
         justify-content: center;
         align-items: center;
 
