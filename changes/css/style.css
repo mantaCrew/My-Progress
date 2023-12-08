@@ -186,7 +186,7 @@ ol {
         min-height: 500px;
         justify-content: center;
         align-items: center;
-        outline: ;
+        outline: 2px solid white;
 
     }
 
@@ -207,6 +207,7 @@ ol {
         min-height: 500px;
         justify-content: center;
         align-items: center;
+        outline: 2px solid white;
     }
 
     .meee {
@@ -226,6 +227,7 @@ ol {
         min-height: 500px;
         justify-content: center;
         align-items: center;
+        outline: 2px solid white;
     }
 
     .meeee {
@@ -245,6 +247,7 @@ ol {
         min-height: 500px;
         justify-content: center;
         align-items: center;
+        outline: 2px solid white;
     }
 
     .meeeee {
