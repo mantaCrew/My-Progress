@@ -20,10 +20,10 @@ admin = name;
 
 // Could also be done this way
 
-// let admin, name;
-// name = "John";
-// admin + name;
-// alert(admin);
+let admin, name;
+name = "John";
+admin + name;
+alert(admin);
 
 alert(10 / 2);
 
