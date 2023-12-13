@@ -12,11 +12,11 @@ alert(typeof(bet1));
 // console.log("You","suck!")
 
 // Used 'let' because of changing the variable
-//let admin
-//let name = 'John';
-//admin = name;
+let admin
+let name = 'John';
+admin = name;
 
-// alert(admin);
+ alert(admin);
 
 // Could also be done this way
 
