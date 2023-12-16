@@ -45,7 +45,7 @@ const btn = document.querySelector("button");
 const txt = document.querySelector("p");
 console.log(btn);
 
-btn.addEventListener("click", updateBtn); this is redunant?
+btn.addEventListener("click", updateBtn); // this is redunant?
 
 function updateBtn() {
     if (btn.textContent === "Start machine") {
@@ -58,7 +58,7 @@ function updateBtn() {
   }
 
   // back ticks ` are for template literals
- const name = "Chris";
+name = "Chris";
 const greeting = `Hello, ${name}`;
 console.log(greeting); // "Hello, Chris" 
 
