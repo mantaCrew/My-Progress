@@ -45,7 +45,7 @@ const btn = document.querySelector("button");
 const txt = document.querySelector("p");
 console.log(btn);
 
-// btn.addEventListener("click", updateBtn); this is redunant?
+btn.addEventListener("click", updateBtn); this is redunant?
 
 function updateBtn() {
     if (btn.textContent === "Start machine") {
