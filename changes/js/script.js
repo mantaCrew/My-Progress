@@ -98,3 +98,5 @@ let quote = 'It\'s okay, I said, "This is okay!"';
 console.log(quote);
 
 console.log(Number(quote));
+
+// Semi wanting to start over, what do I do?
