@@ -140,5 +140,9 @@ console.log(0 != false); // false
 console.log(0 == false); // true
 */
 
-// console.log(null == undefined);
-// console.log(null === undefined);
+//console.log(null == undefined);
+//console.log(null === undefined);
+
+console.log( null > 0 );  // (1) false
+console.log( null == 0 ); // (2) false
+console.log( null >= 0 ); // (3) true
