@@ -41,13 +41,14 @@ let myNumber = "74";
 myNumber = Number(myNumber) + 3;
 //console.log(myNumber);
 
-const btn = document.querySelector("button");
-const txt = document.querySelector("p");
-//console.log(btn);
 
-//btn.addEventListener("click", updateBtn); // this is redunant?
+const btn = document.querySelector('#btn');
+const txt = document.querySelector('#txt');
+
+btn.addEventListener("click", updateBtn); // this is redunant?
 
 function updateBtn() {
+//  btn.addEventListener("click", updateBtn); // this is redunant?
     if (btn.textContent === "Start machine") {
       btn.textContent = "Stop machine";
       txt.textContent = "The machine has started!";
@@ -55,7 +56,7 @@ function updateBtn() {
       btn.textContent = "Start machine";
       txt.textContent = "The machine is stopped.";
     }
-  }
+  } 
 
   // back ticks ` are for template literals
 name = "Chris";
@@ -107,4 +108,28 @@ console.log(a);
 console.log(9 * a);
 let b = 7 * a;
 console.log(b) */
+
+
+/* let  a = 2;
+++a;
+console.log(a);
+a++;
+console.log(a + 'a'); */
+
+/*
+const b = 2;
+b++;
+console.log(b);
+b++;
+console.log(b);  */
+
+/* let counter = 1;
+let f = ++counter; // (*)
+
+console.log(f); // 2
+
+let counters = 1;
+let g = counters++; // (*) changed ++counter to counter++
+
+console.log(g); // 1 */
 
