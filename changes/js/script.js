@@ -45,7 +45,7 @@ const btn = document.querySelector("button");
 const txt = document.querySelector("p");
 //console.log(btn);
 
-btn.addEventListener("click", updateBtn); // this is redunant?
+//btn.addEventListener("click", updateBtn); // this is redunant?
 
 function updateBtn() {
     if (btn.textContent === "Start machine") {
@@ -80,7 +80,7 @@ function greet() {
   greeting.textContent = `Hello ${name}, nice to see you!`;
 }
 
-button.addEventListener("click", greet);
+//button.addEventListener("click", greet);
 
 // Creating a line break in the return string
 // us \n for example:
@@ -99,4 +99,12 @@ let quote = 'It\'s okay, I said, "This is okay!"';
 
 // console.log(Number(quote));
 
-// Semi wanting to start over, what do I do?
+
+// alert("Helloworld");
+
+/* let a = 10;
+console.log(a);
+console.log(9 * a);
+let b = 7 * a;
+console.log(b) */
+
