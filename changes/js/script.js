@@ -143,6 +143,7 @@ console.log(0 == false); // true
 //console.log(null == undefined);
 //console.log(null === undefined);
 
+/*
 console.log( null > 0 );  // (1) false
 console.log( null == 0 ); // (2) false
 console.log( null >= 0 ); // (3) true
@@ -153,3 +154,7 @@ console.log( undefined == 0 ); // false
 console.log( undefined >= 0 ); // false
 
 console.log(typeof(undefined));
+console.log(typeof(NaN));
+*/
+
+// checking values separately is good idea in JS when writing code
