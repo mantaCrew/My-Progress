@@ -133,3 +133,7 @@ let g = counters++; // (*) changed ++counter to counter++
 
 console.log(g); // 1 */
 
+console.log(0 === false); // false
+console.log(0 !== false); // true 
+console.log(0 != false); // false
+console.log(0 == false); // true
