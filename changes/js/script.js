@@ -42,8 +42,8 @@ myNumber = Number(myNumber) + 3;
 //console.log(myNumber);
 
 
-const btn = document.querySelector('#btn');
-const txt = document.querySelector('#txt');
+const btn = document.querySelector('button');
+const txt = document.querySelector('p');
 
 btn.addEventListener("click", updateBtn); // this is redunant?
 
