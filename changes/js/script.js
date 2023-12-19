@@ -159,6 +159,6 @@ console.log(typeof(NaN));
 
 // checking values separately is good idea in JS when writing code
 
-if (new Date().getHours() < 18) {
+if (new Date().getHours() < 20) {
   document.getElementById("demo").innerHTML = "Good day!";
 }
