@@ -3,17 +3,17 @@ body {
 }
 
 div {
-    outline:2px solid white;
+    outline:;
 }
 
 .calcBody {
-    background-color: bisque;
+    background-color: gray;
     margin: auto;
     outline: 2px solid black;
     padding: 5px;
     display: flex;
     min-width: 100px;
-    min-height: 100px;
+    min-height: 145px;
     max-width: 200px;
     max-height: 300px;
 
@@ -21,17 +21,21 @@ div {
 
 .disLayer {
     padding: 5px;
+    display: flex;
+    flex-direction: column;
 }
 
 
 .calcLayers {
     outline: 2px solid grey;
+    padding: 2px;
+    background-color: #5e5e5e;
     flex: 1;
 
 }
 
 .layer .numberBut {
-    outline: 2px solid blue;
+    outline:;
     margin: 2px;
     display: flex;
 
