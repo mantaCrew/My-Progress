@@ -4,4 +4,4 @@ I know that I am not there yet, however as I learn I can begin on
 
 creating the frame and structure of my calculator. */
 
-alert("Calculator, here I come!");
+// alert("Calculator, here I come!");

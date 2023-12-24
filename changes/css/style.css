@@ -269,3 +269,7 @@ ol {
         display: flex;
         flex-direction: column;
     }
+
+    .newProject {
+        background-color: white;
+    }
