@@ -1,3 +1,48 @@
 body {
     background-color: aquamarine;
 }
+
+div {
+    outline:2px solid white;
+}
+
+.calcBody {
+    background-color: bisque;
+    margin: auto;
+    outline: 2px solid black;
+    padding: 5px;
+    display: flex;
+    min-width: 100px;
+    min-height: 100px;
+    max-width: 200px;
+    max-height: 300px;
+
+}
+
+.disLayer {
+    padding: 5px;
+}
+
+
+.calcLayers {
+    outline: 2px solid grey;
+    flex: 1;
+
+}
+
+.layer .numberBut {
+    outline: 2px solid blue;
+    margin: 2px;
+    display: flex;
+
+}
+
+.box {
+    display: flex;
+    align-items: center;
+}
+
+button {
+    flex: 1;
+}
+
