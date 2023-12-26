@@ -164,7 +164,7 @@ console.log(typeof(NaN));
 }
 */
 
-if (hour < 20) {
+/*if (hour < 20) {
   greeting = "Good day";
 } else {
   greeting = "Good evening";
@@ -177,4 +177,25 @@ if (condition1) {
   //  block of code to be executed if the condition1 is false and condition2 is true
 } else {
   //  block of code to be executed if the condition1 is false and condition2 is false
+}*/
+
+//console.log('string');
+
+/*
+let firstName = "Timy";
+let lastName = "Change";
+let nickName = "SuperCoder";
+alert( firstName || lastName || nickName || 'Anonymous');
+*/
+/*
+let balls=1
+let talls=0
+function tanky() {
+  if (balls == 1)
+  alert(talls || balls);
+  else (balls > 1)
+  alert('Im wrong');
 }
+
+tanky();
+*/
