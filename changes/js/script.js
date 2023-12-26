@@ -198,4 +198,20 @@ function tanky() {
 }
 
 tanky();
+
+
+let hour = 2
+let minute = 2
+
+if (hour === 1 && minute === 2) {
+  tanky();
+}
+else {
+  alert('no good');
+}
 */
+
+//alert(1 && 2 && 0);
+
+// && 'and' returns the first false value
+// || 'or' returns the first true value
