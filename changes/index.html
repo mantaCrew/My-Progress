@@ -78,6 +78,7 @@
             </div>
         </div>
     --> 
+    <!-- 
         <div class="fourRow">
             <div class="rowOne">
                 <div class="fourthBox">
@@ -111,4 +112,91 @@
     </div>
 </body>
 <script src="js/script.js"></script>
+</html> -->
+
+
+Conversation opened. 1 unread message.
+
+Skip to content
+Using Gmail with screen readers
+1 of 7,973
+LAWLZ
+Inbox
+
+Dillon
+5:20 PM (1 minute ago)
+to me
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simple Calculator</title>
+    <style>
+        input {
+            width: 50px;
+            padding: 5px;
+            margin: 5px;
+        }
+    </style>
+</head>
+<body>
+
+<h2>Simple Calculator</h2>
+
+<input type="text" id="result" disabled>
+
+<br>
+
+<button onclick="appendNumber('1')">1</button>
+<button onclick="appendNumber('2')">2</button>
+<button onclick="appendNumber('3')">3</button>
+<button onclick="appendOperation('+')">+</button>
+
+<br>
+
+<button onclick="appendNumber('4')">4</button>
+<button onclick="appendNumber('5')">5</button>
+<button onclick="appendNumber('6')">6</button>
+<button onclick="appendOperation('-')">-</button>
+
+<br>
+
+<button onclick="appendNumber('7')">7</button>
+<button onclick="appendNumber('8')">8</button>
+<button onclick="appendNumber('9')">9</button>
+<button onclick="appendOperation('*')">*</button>
+
+<br>
+
+<button onclick="appendNumber('0')">0</button>
+<button onclick="clearInput()">C</button>
+<button onclick="calculateResult()">=</button>
+<button onclick="appendOperation('/')">/</button>
+
+<script>
+    function appendNumber(number) {
+        document.getElementById('result').value += number;
+    }
+
+    function appendOperation(operator) {
+        document.getElementById('result').value += operator;
+    }
+
+    function clearInput() {
+        document.getElementById('result').value = '';
+    }
+
+    function calculateResult() {
+        try {
+            document.getElementById('result').value = eval(document.getElementById('result').value);
+        } catch (error) {
+            document.getElementById('result').value = 'Error';
+        }
+    }
+</script>
+
+</body>
 </html>
+
